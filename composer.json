@@ -1,26 +1,20 @@
 {
 	"name": "flarum-lang/kannada",
+	"description": "Kannada Language Pack for Flarum",
 	"type": "flarum-extension",
-	"description": "Kannada language pack for Flarum.",
-	"homepage": "https://github.com/flarum-lang/kannada",
 	"keywords": [
-		"locale",
-		"flarum",
-		"flarum-locale",
-		"kn-locale",
-		"kannada-locale",
-		"kannada"
+		"flarum-locale"
 	],
+	"homepage": "https://github.com/flarum-lang/kannada",
 	"license": "MIT",
 	"support": {
 		"issues": "https://github.com/flarum-lang/kannada/issues",
+		"forum": "https://discuss.flarum.org/d/40198",
 		"source": "https://github.com/flarum-lang/kannada"
 	},
 	"require": {
 		"flarum/core": "^2.0"
 	},
-	"minimum-stability": "dev",
-	"prefer-stable": true,
 	"extra": {
 		"flarum-extension": {
 			"title": "Kannada",
@@ -33,13 +27,7 @@
 		},
 		"flarum-locale": {
 			"code": "kn",
-			"title": "Kannada"
-		},
-		"extiverse": {
-			"discuss": ""
-		},
-		"branch-alias": {
-			"dev-master": "1.x-dev"
+			"title": "ಕನ್ನಡ"
 		}
 	}
 }
